@@ -3,13 +3,17 @@
 2. Required installation: 
 	Python 2.7, td-client.
 
-3. Example without command line arguments:
+3. Example without command line arguments: 
+	python database_query_TD.py
+	
 	usage: TD_database_query.py [-h] [-c COL_LIST] [-m MIN_TIME] [-M MAX_TIME]
 								[-e ENGINE] [-f FORMAT] [-l LIMIT]
 								db_name table_name
 	TD_database_query.py: error: too few arguments
 
 4. Example of help menu (using -h, or --help option) Note the two positional/mandatory arguments (db_name, table_name):
+
+	python database_query_TD.py -h
 
 	usage: TD_database_query.py [-h] [-c COL_LIST] [-m MIN_TIME] [-M MAX_TIME]
 								[-e ENGINE] [-f FORMAT] [-l LIMIT]
